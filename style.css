@@ -1,0 +1,56 @@
+* {
+  outline: 1px solid red;
+}
+
+:root {
+  --bg-primary: #f7f7f5;
+  --bg-surface: #ebece8;
+  --text-primary: #1c1917;
+  --text-secondary: #57534e;
+  --accent-primary: #303934;
+  --border-subtle: #e4e4e7;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  background-color: #f7f7f5;
+  color: var(--text-primary);
+}
+
+.FlexContainer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #57534e;
+  color: #f7f7f5;
+  padding: 0.75rem 2rem;
+  margin: 0;
+}
+
+.FlexItem1 {
+  color: #f7f7f5;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.FlexItem2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.FlexItem2 a {
+  color: #f7f7f5;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
