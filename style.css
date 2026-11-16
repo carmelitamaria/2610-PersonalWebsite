@@ -1,4 +1,4 @@
-* {
+- {
   outline: 1px solid red;
 }
 
@@ -56,8 +56,18 @@ body {
   font-weight: 500;
 }
 
+.FlexContainer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #57534e;
+  color: #f7f7f5;
+  margin: 0;
+  padding: 0;
+}
+
 .CardAbout {
-  background-color: #ffffff; /* Checking to see what this does */
+  background-color: #ffffff;
   border: 1px solid #aaa4a4;
   border-radius: 12px;
   padding: 24px;
@@ -81,4 +91,96 @@ body {
   max-width: 100%;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.CardHome {
+  background-color: #ffffff;
+  border: 1px solid #aaa4a4;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.SplitCardHome {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.SplitTextHome {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.SplitImageHome {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.CardPortfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #ffffff;
+  border: 1px solid #aaa4a4;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.PortfolioImage {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.PageContentContact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.CardContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: #ffffff;
+  border: 1px solid #aaa4a4;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.ContactImage {
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+}
+
+.FormFields {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+}
+
+.FormGroup textarea {
+  min-height: 140px;
+  resize: vertical;
 }
