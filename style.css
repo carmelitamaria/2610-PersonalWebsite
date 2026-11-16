@@ -33,6 +33,7 @@ body {
   color: #f7f7f5;
   padding: 0.75rem 2rem;
   margin: 0;
+  margin-bottom: 32px;
 }
 
 .FlexItem1 {
@@ -53,4 +54,31 @@ body {
   color: #f7f7f5;
   font-size: 0.85rem;
   font-weight: 500;
+}
+
+.CardAbout {
+  background-color: #ffffff; /* Checking to see what this does */
+  border: 1px solid #aaa4a4;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.SplitCard {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.SplitText {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.SplitImage {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
 }
